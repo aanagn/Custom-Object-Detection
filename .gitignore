@@ -1,6 +1,9 @@
 # Tensorflow graph
 output_inference_graph/
 
+train/
+*.record
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
