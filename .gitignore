@@ -3,6 +3,7 @@ output_inference_graph/
 
 train/
 *.record
+object_detection/faster_rcnn_resnet101_coco
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
