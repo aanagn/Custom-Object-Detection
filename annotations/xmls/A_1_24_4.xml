@@ -1,0 +1,506 @@
+<annotation>
+	<folder>A_1_24</folder>
+	<filename>A_1_24_4.jpeg</filename>
+	<path>/mnt/e393755f-1bcd-47fb-b033-751e78ded543/Agro/Images/SECTOR_A/LINE_A_1/A_1_24/A_1_24_4.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+<width>864</width>
+<height>648</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>188</xmin>
+<ymin>137</ymin>
+<xmax>206</xmax>
+<ymax>157</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>203</xmin>
+<ymin>141</ymin>
+<xmax>216</xmax>
+<ymax>163</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>258</xmin>
+<ymin>173</ymin>
+<xmax>273</xmax>
+<ymax>190</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>250</xmin>
+<ymin>174</ymin>
+<xmax>264</xmax>
+<ymax>194</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>115</xmin>
+<ymin>64</ymin>
+<xmax>129</xmax>
+<ymax>79</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>122</xmin>
+<ymin>32</ymin>
+<xmax>137</xmax>
+<ymax>44</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>109</xmin>
+<ymin>25</ymin>
+<xmax>126</xmax>
+<ymax>40</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>138</xmin>
+<ymin>302</ymin>
+<xmax>154</xmax>
+<ymax>314</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>142</xmin>
+<ymin>310</ymin>
+<xmax>158</xmax>
+<ymax>324</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>162</xmin>
+<ymin>301</ymin>
+<xmax>172</xmax>
+<ymax>314</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>167</xmin>
+<ymin>302</ymin>
+<xmax>183</xmax>
+<ymax>317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>170</xmin>
+<ymin>314</ymin>
+<xmax>185</xmax>
+<ymax>327</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>161</xmin>
+<ymin>266</ymin>
+<xmax>177</xmax>
+<ymax>277</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>228</xmin>
+<ymin>63</ymin>
+<xmax>245</xmax>
+<ymax>79</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>232</xmin>
+<ymin>75</ymin>
+<xmax>246</xmax>
+<ymax>87</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>293</xmin>
+<ymin>0</ymin>
+<xmax>313</xmax>
+<ymax>18</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>385</xmin>
+<ymin>280</ymin>
+<xmax>400</xmax>
+<ymax>297</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>382</xmin>
+<ymin>292</ymin>
+<xmax>396</xmax>
+<ymax>308</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>339</xmin>
+<ymin>339</ymin>
+<xmax>357</xmax>
+<ymax>355</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>323</xmin>
+<ymin>342</ymin>
+<xmax>343</xmax>
+<ymax>359</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>346</xmin>
+<ymin>374</ymin>
+<xmax>363</xmax>
+<ymax>392</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>336</xmin>
+<ymin>370</ymin>
+<xmax>353</xmax>
+<ymax>387</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>332</xmin>
+<ymin>436</ymin>
+<xmax>352</xmax>
+<ymax>456</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>318</xmin>
+<ymin>438</ymin>
+<xmax>337</xmax>
+<ymax>459</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>460</xmin>
+<ymin>185</ymin>
+<xmax>477</xmax>
+<ymax>204</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>452</xmin>
+<ymin>192</ymin>
+<xmax>468</xmax>
+<ymax>210</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>593</xmin>
+<ymin>81</ymin>
+<xmax>608</xmax>
+<ymax>97</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>589</xmin>
+<ymin>128</ymin>
+<xmax>608</xmax>
+<ymax>147</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>674</xmin>
+<ymin>113</ymin>
+<xmax>689</xmax>
+<ymax>128</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>683</xmin>
+<ymin>121</ymin>
+<xmax>698</xmax>
+<ymax>137</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>638</xmin>
+<ymin>20</ymin>
+<xmax>657</xmax>
+<ymax>35</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>678</xmin>
+<ymin>146</ymin>
+<xmax>693</xmax>
+<ymax>163</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>640</xmin>
+<ymin>165</ymin>
+<xmax>658</xmax>
+<ymax>182</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>692</xmin>
+<ymin>409</ymin>
+<xmax>709</xmax>
+<ymax>429</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>705</xmin>
+<ymin>417</ymin>
+<xmax>722</xmax>
+<ymax>437</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>849</xmin>
+<ymin>306</ymin>
+<xmax>864</xmax>
+<ymax>324</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>846</xmin>
+<ymin>297</ymin>
+<xmax>862</xmax>
+<ymax>313</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>764</xmin>
+<ymin>229</ymin>
+<xmax>786</xmax>
+<ymax>249</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>764</xmin>
+<ymin>216</ymin>
+<xmax>782</xmax>
+<ymax>233</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>821</xmin>
+<ymin>90</ymin>
+<xmax>844</xmax>
+<ymax>110</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>839</xmin>
+<ymin>99</ymin>
+<xmax>857</xmax>
+<ymax>121</ymax>
+		</bndbox>
+	</object>
+</annotation>

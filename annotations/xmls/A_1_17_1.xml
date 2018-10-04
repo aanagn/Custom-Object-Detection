@@ -1,0 +1,86 @@
+<annotation>
+	<folder>A_1_17</folder>
+	<filename>A_1_17_1.jpeg</filename>
+	<path>/mnt/e393755f-1bcd-47fb-b033-751e78ded543/Agro/Images/SECTOR_A/LINE_A_1/A_1_17/A_1_17_1.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+<width>864</width>
+<height>648</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>246</xmin>
+<ymin>117</ymin>
+<xmax>280</xmax>
+<ymax>155</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>451</xmin>
+<ymin>359</ymin>
+<xmax>476</xmax>
+<ymax>382</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>422</xmin>
+<ymin>441</ymin>
+<xmax>444</xmax>
+<ymax>467</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>330</xmin>
+<ymin>425</ymin>
+<xmax>362</xmax>
+<ymax>460</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>277</xmin>
+<ymin>556</ymin>
+<xmax>305</xmax>
+<ymax>586</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>262</xmin>
+<ymin>547</ymin>
+<xmax>287</xmax>
+<ymax>577</ymax>
+		</bndbox>
+	</object>
+</annotation>

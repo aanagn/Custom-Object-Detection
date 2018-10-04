@@ -1,0 +1,110 @@
+<annotation>
+	<folder>A_1_25</folder>
+	<filename>A_1_25_4.jpeg</filename>
+	<path>/mnt/e393755f-1bcd-47fb-b033-751e78ded543/Agro/Images/SECTOR_A/LINE_A_1/A_1_25/A_1_25_4.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+<width>864</width>
+<height>648</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>142</xmin>
+<ymin>180</ymin>
+<xmax>157</xmax>
+<ymax>193</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>145</xmin>
+<ymin>190</ymin>
+<xmax>159</xmax>
+<ymax>205</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>255</xmin>
+<ymin>198</ymin>
+<xmax>273</xmax>
+<ymax>213</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>269</xmin>
+<ymin>194</ymin>
+<xmax>283</xmax>
+<ymax>211</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>639</xmin>
+<ymin>431</ymin>
+<xmax>658</xmax>
+<ymax>450</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>550</xmin>
+<ymin>78</ymin>
+<xmax>564</xmax>
+<ymax>93</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>688</xmin>
+<ymin>120</ymin>
+<xmax>705</xmax>
+<ymax>138</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>752</xmin>
+<ymin>251</ymin>
+<xmax>768</xmax>
+<ymax>267</ymax>
+		</bndbox>
+	</object>
+</annotation>

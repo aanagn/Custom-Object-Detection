@@ -152,6 +152,7 @@ def main(_):
   create_input_dict_fn = functools.partial(
       input_reader_builder.build, input_config)
 
+  print ("1")
   env = json.loads(os.environ.get('TF_CONFIG', '{}'))
   cluster_data = env.get('cluster', None)
   cluster = tf.train.ClusterSpec(cluster_data) if cluster_data else None
@@ -165,7 +166,7 @@ def main(_):
   task = 0
   is_chief = True
   master = ''
-
+  print ("2")
   if cluster_data and 'worker' in cluster_data:
     # Number of total worker replicas include "worker"s and the "master".
     worker_replicas = len(cluster_data['worker']) + 1
@@ -183,16 +184,17 @@ def main(_):
     if task_info.type == 'ps':
       server.join()
       return
-
+    print ("3")
     worker_job_name = '%s/task:%d' % (task_info.type, task_info.index)
     task = task_info.index
     is_chief = (task_info.type == 'master')
     master = server.target
 
+  print ("4")
   trainer.train(create_input_dict_fn, model_fn, train_config, master, task,
                 FLAGS.num_clones, worker_replicas, FLAGS.clone_on_cpu, ps_tasks,
                 worker_job_name, is_chief, FLAGS.train_dir)
-
+  print ("5")
 
 if __name__ == '__main__':
   tf.app.run()

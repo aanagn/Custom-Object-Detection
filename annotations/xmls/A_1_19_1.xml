@@ -1,0 +1,38 @@
+<annotation>
+	<folder>A_1_19</folder>
+	<filename>A_1_19_1.jpeg</filename>
+	<path>/mnt/e393755f-1bcd-47fb-b033-751e78ded543/Agro/Images/SECTOR_A/LINE_A_1/A_1_19/A_1_19_1.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+<width>864</width>
+<height>648</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>490</xmin>
+<ymin>80</ymin>
+<xmax>538</xmax>
+<ymax>140</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>walnut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<xmin>234</xmin>
+<ymin>351</ymin>
+<xmax>271</xmax>
+<ymax>388</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -161,6 +161,7 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
       preprocessor_builder.build(step)
       for step in train_config.data_augmentation_options]
 
+  print ("x1")
   with tf.Graph().as_default():
     # Build a configuration specifying multi-GPU and multi-replicas.
     deploy_config = model_deploy.DeploymentConfig(
@@ -171,10 +172,12 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
         num_ps_tasks=ps_tasks,
         worker_job_name=worker_job_name)
 
+    print ("x2")
     # Place the global step on the device storing the variables.
     with tf.device(deploy_config.variables_device()):
       global_step = slim.create_global_step()
 
+    print ("x3")
     with tf.device(deploy_config.inputs_device()):
       input_queue = _create_input_queue(train_config.batch_size // num_clones,
                                         create_tensor_dict_fn,
@@ -182,7 +185,7 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
                                         train_config.num_batch_queue_threads,
                                         train_config.prefetch_queue_capacity,
                                         data_augmentation_options)
-
+    print ("x4")
     # Gather initial summaries.
     summaries = set(tf.get_collection(tf.GraphKeys.SUMMARIES))
     global_summaries = set([])
@@ -199,7 +202,7 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
     with tf.device(deploy_config.optimizer_device()):
       training_optimizer = optimizer_builder.build(train_config.optimizer,
                                                    global_summaries)
-
+    print ("x5")
     sync_optimizer = None
     if train_config.sync_replicas:
       training_optimizer = tf.SyncReplicasOptimizer(
@@ -220,7 +223,7 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
       def initializer_fn(sess):
         init_saver.restore(sess, train_config.fine_tune_checkpoint)
       init_fn = initializer_fn
-
+    print ("x6")
     with tf.device(deploy_config.optimizer_device()):
       total_loss, grads_and_vars = model_deploy.optimize_clones(
           clones, training_optimizer, regularization_losses=None)
@@ -233,7 +236,7 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
             grads_and_vars,
             biases_regex_list,
             multiplier=train_config.bias_grad_multiplier)
-
+      print ("x7")
       # Optionally freeze some layers by setting their gradients to be zero.
       if train_config.freeze_variables:
         grads_and_vars = variables_helper.freeze_gradients_matching_regex(
@@ -249,7 +252,7 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
       grad_updates = training_optimizer.apply_gradients(grads_and_vars,
                                                         global_step=global_step)
       update_ops.append(grad_updates)
-
+      print ("x8")
       update_op = tf.group(*update_ops)
       with tf.control_dependencies([update_op]):
         train_tensor = tf.identity(total_loss, name='train_op')
@@ -274,12 +277,12 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
     # Soft placement allows placing on CPU ops without GPU implementation.
     session_config = tf.ConfigProto(allow_soft_placement=True,
                                     log_device_placement=False)
-
+    print ("x9")
     # Save checkpoints regularly.
     keep_checkpoint_every_n_hours = train_config.keep_checkpoint_every_n_hours
     saver = tf.train.Saver(
         keep_checkpoint_every_n_hours=keep_checkpoint_every_n_hours)
-
+    print("x10")
     slim.learning.train(
         train_tensor,
         logdir=train_dir,
@@ -294,3 +297,4 @@ def train(create_tensor_dict_fn, create_model_fn, train_config, master, task,
         save_summaries_secs=120,
         sync_optimizer=sync_optimizer,
         saver=saver)
+    print ("x11")
